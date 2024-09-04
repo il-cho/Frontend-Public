@@ -1,0 +1,43 @@
+.landing-account{
+  height: 700px;
+}
+.landing-account-title{
+  font-weight: bold;
+  margin: 0.5rem 0;  
+  font-size: 1.5rem;
+  color: #246beb;
+}
+
+.landing-account-description{
+  font-size: 1.2rem;
+  color: gray;
+  margin: 0.2rem 0 0.2rem 0.5rem;
+}
+
+.account-image-sub-container{
+  width: 90%;
+  margin: auto auto;
+}
+
+.account-image-sub-container{
+  position: relative;
+  margin-top: 0.5em;
+}
+.account-bank-icon-box {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #9c9c9c;
+  border-radius: 0.3em;
+  padding: 1em 0.5em;
+  height: 400px;
+}
+
+.account-bank-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  margin: 0.8em 0;
+  transition: 0.3s;
+}

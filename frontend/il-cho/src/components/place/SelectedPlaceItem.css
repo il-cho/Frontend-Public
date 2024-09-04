@@ -1,0 +1,114 @@
+.place-item-main{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #c6c6c6;
+    padding: 1em;
+    border-radius: 0.3em;   
+    margin: 1em 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    position: relative;
+    overflow-x: hidden;
+    animation: left-right 0.5s;
+    cursor: pointer;
+}
+
+
+.place-item-name{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+.place-item-address{
+    color: #949292;
+    font-weight: 300;
+}
+.place-item-type{
+    font-size:0.9em;
+    margin-left: 0.6em;       
+    font-weight: 500;
+    overflow-wrap: break-word;
+    position: relative;
+}
+
+.place-item-type-candidate{
+    color: #246BEB
+}
+
+.place-item-type-start{
+    color: #4c9847
+}
+
+.place-item-type-confirm{
+    color: #C5524C;
+}
+
+
+.delete-icon{
+    position: absolute;
+    cursor: pointer;
+    top: 1em;
+    right: 1em;
+}
+.circle-icon{
+    position: absolute;
+    cursor: pointer;
+    top: 1em;
+    right: 1em;
+}
+.check-icon{
+    position: absolute;
+    cursor: pointer;
+    top: 1em;
+    right: 1em;
+    color: #C5524C;
+}
+
+.check-icon-confirm{
+    color: #C5524C;
+}
+
+.icon-fade-enter{
+    opacity: 0;
+}
+
+.icon-fade-enter-active{
+    opacity: 1;
+    transition: opacity 500ms;
+} 
+
+.icon-fade-exit {
+    opacity: 1;
+}
+.icon-fade-exit-active {
+    opacity: 0;
+    transition: 500ms;
+}
+
+@keyframes left-right {
+    0%{
+        transform: translateX(-5%);
+        opacity: 0;
+    }
+    20%{
+        transform: translateX(5%);
+        opacity: 0.2;
+    }
+    40%{
+        transform: translateX(-5%);
+        opacity: 0.4;
+    }
+    60%{
+        transform: translateX(5%);
+        opacity: 0.6;
+    }
+    80%{
+        transform: translateX(-5%);
+        opacity: 0.8;
+    }
+
+    100%{
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}

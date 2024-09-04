@@ -1,0 +1,51 @@
+.landing-place-title{
+  font-weight: bold;
+  margin: 0.5rem 0;  
+  font-size: 1.5rem;
+  color: #246beb;
+}
+
+.landing-place-description{
+  font-size: 1.2rem;
+  color: gray;
+  margin-left: 0.5em;
+  margin: 0.2rem 0 0.2rem 0;
+}
+
+.landing-place {
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-place-img{
+  position: relative;
+  width: 100%;
+}
+.landing-place-marker{
+  position: absolute;
+  width: 1.5em;
+}
+.landing-place-marker-1{
+  top: 100px;
+  left: 100px;
+}
+.landing-place-marker-2{
+  top: 150px;
+  right: 200px;
+}
+.landing-place-marker-3{
+  bottom: 180px;
+  right: 10px;
+}
+.landing-place-marker-4{
+  bottom: 50px;
+  right: 20px;
+}
+.landing-place-marker-5{
+  bottom: 70px;
+  left: 150px;
+}
+.landing-place-marker-6{
+  top: 50px;
+  left: 20px;
+}

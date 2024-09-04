@@ -1,0 +1,94 @@
+/* CalendarStyles.css */
+
+/* 캘린더 전체 컨테이너 스타일 */
+.react-calendar {
+  width: 90%;
+  border-radius: 10px; /* 전체 달력의 모서리를 둥글게 만듭니다. */
+  overflow: hidden; /* 둥근 모서리가 적용되도록 내용이 넘치지 않게 합니다. */
+}
+
+/* 달력의 헤더 스타일 */
+.react-calendar__navigation button {
+  border-radius: 5px; /*헤더 버튼의 모서리를 둥글게 만듭니다. */
+}
+
+/* 달력의 각 월/년/일 선택 버튼 스타일 */
+.react-calendar__tile--now,
+.react-calendar__tile--active,
+.react-calendar__tile--hasActive {
+  border-radius: 5px; /* 현재 날짜, 활성화된 날짜, 선택된 날짜의 모서리를 둥글게 만듭니다. */
+}
+
+/* 달력 상단 스타일 */
+.react-calendar__navigation {
+  background-color: #edf1f5;
+}
+
+/* 클릭하여 선택된 날짜 스타일 */
+.react-calendar__tile--active {
+  background: #246beb; /* 배경색을 파란색으로 설정합니다. */
+  color: white; /* 텍스트 색상을 흰색으로 설정합니다. */
+  border-radius: 50%;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #246beb; /* 배경색을 파란색으로 설정합니다. */
+  color: white; /* 텍스트 색상을 흰색으로 설정합니다. */
+}
+
+/* 현재 달이 아닌 경우 밝은 회색으로 표시 */
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: lightgray;
+}
+
+/* 현재 날짜 표시 */
+.react-calendar__tile--now {
+  background-color: white;
+  color: rgb(0, 0, 255);
+  font-weight: bold;
+}
+
+/* 선택된 날짜 스타일 */
+.selected {
+  background: #246beb !important; /* 배경색을 파란색으로 설정합니다. */
+  color: white !important; /* 텍스트 색상을 흰색으로 설정합니다. */
+  border-radius: 50% !important; /* 모서리를 둥글게 하여 원형으로 만듭니다. */
+}
+
+/* 선택된 기간 중 시작 날짜 스타일 */
+.selected-start {
+  background: #246beb !important; /* 배경색을 진한 파란색으로 설정합니다. */
+  color: white !important; /* 텍스트 색상을 흰색으로 설정합니다. */
+  border-radius: 50% 0% 0% 50% !important; /* 모서리를 둥글게 하여 원형으로 만듭니다. */
+}
+
+/* 선택된 기간 중 끝 날짜 스타일 */
+.selected-end {
+  background: #246beb !important; /* 배경색을 진한 파란색으로 설정합니다. */
+  color: white !important; /* 텍스트 색상을 흰색으로 설정합니다. */
+  border-radius: 0% 50% 50% 0% !important; /* 모서리를 둥글게 하여 원형으로 만듭니다. */
+}
+
+/* 선택된 기간 중 나머지 날짜 스타일 */
+.selected-range {
+  background: #d3e1fb !important; /* 배경색을 연한 파란색으로 설정합니다. */
+  color: black !important; /* 텍스트 색상을 검은으로 설정합니다. */
+}
+
+.before-today {
+  color: #9e9e9e !important;
+  pointer-events: none !important;
+}
+
+.selected-one {
+  border-radius: 50% !important;
+}
+
+.react-calendar__navigation__prev2-button {
+  display: none;
+}
+
+.react-calendar__navigation__next2-button {
+  display: none;
+}

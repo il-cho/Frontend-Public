@@ -1,0 +1,36 @@
+.landing-schedule{
+  display: flex;
+  justify-content: space-between;
+}
+
+.landing-schedule-text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.landing-schedule-title{
+  font-weight: bold;
+  margin: 0.5rem 0;  
+  font-size: 1.5rem;
+  color: #246beb;
+}
+
+.landing-schedule-description{
+  font-size: 1.1rem;
+  color: gray;
+}
+.landing-schedule-sub-icon{
+  width: 1.5rem;
+  margin: 0.2rem
+}
+.landing-schedule-content-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin: 1em 0; */
+}
+.landing-schedule-main-img{
+  margin-top: 3rem;
+  width: 46%;
+}

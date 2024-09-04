@@ -1,0 +1,80 @@
+.invitation-button {
+  color: #717171;
+}
+
+.invitation-container {
+  border-top: 1px solid #c6c6c6;
+}
+
+.grayscale {
+  color: #8e8e8e;
+}
+
+.clicked-invitation {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120%;
+  top: 0; 
+}
+
+/* 캘린더 전체 컨테이너 스타일 */
+.react-calendar {
+  width: 90%;
+  border-radius: 10px; /* 전체 달력의 모서리를 둥글게 만듭니다. */
+  overflow: hidden; /* 둥근 모서리가 적용되도록 내용이 넘치지 않게 합니다. */
+}
+
+/* 달력의 헤더 스타일 */
+.react-calendar__navigation button {
+  border-radius: 5px; /*헤더 버튼의 모서리를 둥글게 만듭니다. */
+}
+
+/* 달력의 각 월/년/일 선택 버튼 스타일 */
+.react-calendar__tile--now,
+.react-calendar__tile--active,
+.react-calendar__tile--hasActive {
+  border-radius: 5px; /* 현재 날짜, 활성화된 날짜, 선택된 날짜의 모서리를 둥글게 만듭니다. */
+}
+
+/* 달력 상단 스타일 */
+.react-calendar__navigation {
+  background-color: #edf1f5;
+}
+
+/* 클릭하여 선택된 날짜 스타일 */
+.react-calendar__tile--active {
+  background: #246beb; /* 배경색을 파란색으로 설정합니다. */
+  color: white; /* 텍스트 색상을 흰색으로 설정합니다. */
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #246beb; /* 배경색을 파란색으로 설정합니다. */
+  color: white; /* 텍스트 색상을 흰색으로 설정합니다. */
+}
+
+/* 현재 달이 아닌 경우 밝은 회색으로 표시 */
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: lightgray;
+}
+
+/* 현재 날짜 표시 */
+.react-calendar__tile--now {
+  background-color: white;
+  color: rgb(0, 0, 255);
+  font-weight: bold;
+}
+
+/* 선택된 날짜 스타일 */
+.selected {
+  background: #246beb; /* 배경색을 파란색으로 설정합니다. */
+  color: white; /* 텍스트 색상을 흰색으로 설정합니다. */
+  border-radius: 50%; /* 모서리를 둥글게 하여 원형으로 만듭니다. */
+}
+
+.none-selected {
+  background-color: transparent !important;
+  color: inherit !important;
+  border: none !important;
+}

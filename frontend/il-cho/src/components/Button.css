@@ -1,0 +1,98 @@
+* {
+  font-family: "Pretendard";
+}
+
+.Button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.Button_BLUE {
+  color: #246beb;
+}
+
+.Button_GRAY {
+  color: #717171;
+}
+
+.Button_Fill_Blue {
+  background-color: #246beb;
+  color: white;
+  font-weight: 700;
+  border: 1px solid #c6c6c6;
+}
+
+.Button_Fill_None {
+  background-color: transparent;
+  color: #505050;
+  font-weight: 600;
+  border: 1px solid #dedede;
+}
+.Button_Fill_None:hover {
+  background-color: #246beb;
+  color: white;
+  font-weight: 600;
+  border: 1px solid #dedede;
+}
+
+.Button_Fill_Blue_Hover {
+  background-color: #246beb;
+  color: white;
+  font-weight: 900;
+  border: none;
+  transition: transform 0.5s;
+}
+
+.Button_Fill_Blue_Hover:hover {
+  transform: scale(1.1);
+}
+
+.Button_Fill_modify {
+  background-color: transparent;
+  color: #505050;
+  font-weight: 600;
+}
+
+.Button_Fill_modify:hover {
+  color: #246beb;
+  font-weight: 600;
+}
+
+.Button_Fill_delete {
+  background-color: transparent;
+  color: #505050;
+  font-weight: 600;
+}
+.Button_Fill_delete:hover {
+  color: #e05c60;
+  font-weight: 600;
+}
+
+.Button_Fill_None_Big {
+  background-color: transparent;
+  color: #505050;
+  font-weight: 600;
+  font-size: 20px;
+  border: 1px solid #dedede;
+}
+
+.Button_Fill_None_Big:hover {
+  background-color: #246beb;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border: 1px solid #c6c6c6;
+}
+
+.Button_Fill_Blue_Big {
+  background-color: #246beb;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border: 1px solid #c6c6c6;
+}

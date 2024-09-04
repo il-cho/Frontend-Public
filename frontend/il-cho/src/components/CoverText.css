@@ -1,0 +1,79 @@
+.CoverText {
+  font-family: "Pretendard";
+}
+
+.cover-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected-cover {
+  position: absolute;
+  opacity: 0.5;
+}
+
+.semi-title {
+  font-size: 13pt;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.font-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.font-buttons > button {
+  border: 1px solid #c6c6c6;
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  padding: 2px 7px;
+}
+
+.font1 {
+  font-family: "Pretendard";
+  font-weight: 800;
+}
+.font2 {
+  font-family: "SanTokki";
+}
+.font3 {
+  font-family: "Doldam";
+}
+
+.text-custom {
+  display: flex;
+}
+
+.text-size {
+  margin-right: 3rem;
+}
+
+.button {
+  float: right;
+}
+
+/* 겉부분의 디자인 변경 */
+.deco {
+  width: auto;
+  height: 50px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+}
+/* 안쪽부분의 디자인 변경 */
+.deco::-webkit-color-swatch {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+}
+
+.selected-cover{
+  object-fit: cover;
+}

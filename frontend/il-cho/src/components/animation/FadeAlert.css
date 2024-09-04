@@ -1,0 +1,31 @@
+.confirm-alert{
+    color: crimson;
+}
+
+.confirm-alert-left{
+    text-align: left;
+    margin-left: 0.5rem;
+}
+
+.confirm-alert-center{
+    text-align: center;
+}
+
+.alert-visible-fade-enter {
+    transform: translate(-5%, 5%);
+    opacity: 0;
+}
+.alert-visible-fade-enter-active {
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: 500ms;
+}
+.alert-visible-fade-exit {   
+    transform: translate(0, 0);
+    opacity: 1;
+}
+.alert-visible-fade-exit-active {
+    transform: translate(-5%, 5%);
+    opacity: 0;
+    transition: 500ms;
+}

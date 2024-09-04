@@ -1,0 +1,28 @@
+.Input{
+  border: 1px solid #717171;
+  border-radius: 0.3em;
+  height: 48px;
+  width: 100%;
+  padding-left: 1em;
+}
+.Input::placeholder{
+  color: #d4d4d4;
+}
+.input-wrapper{
+ position: relative;
+}
+
+.click-btn{
+  position: absolute;
+  top: 50%;
+  transform:translateY(-50%);
+  right: 10px;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.Input:focus + .click-btn{
+  color: crimson;
+}

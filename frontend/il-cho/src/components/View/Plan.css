@@ -1,0 +1,106 @@
+.greyed-out {
+  background-color: #ebf5ff !important;
+  border-radius: 50%;
+  margin: 1px;
+  color: gray !important;
+}
+
+.react-calendar__tile {
+  margin: 1px;
+  position: relative;
+}
+
+/* .react-calendar__tile--active {
+  border-radius: 50%;
+  } */
+
+.onClick {
+  border-radius: 50% !important;
+}
+
+.light-vote {
+  background-color: #cce5ff !important;
+  color: black !important;
+  position: relative;
+}
+
+.medium-vote {
+  background-color: #99ccff  !important;
+  color: black !important;
+  position: relative;
+}
+
+.dark-vote {
+  background-color: #4d94ff  !important;
+  color: black !important;
+  position: relative;
+}
+
+.very-dark-vote {
+  background-color: #4d94ff  !important;
+  color: black !important;
+  position: relative;
+}
+
+.light {
+  background-color: #cce5ff !important;
+  color: black !important;
+  border-radius: 50% !important;
+}
+
+.medium {
+  background-color: #99ccff !important;
+  color: black !important;
+  border-radius: 50% !important;
+}
+
+.dark {
+  background-color: #4d94ff !important;
+  color: black !important;
+  border-radius: 50% !important;
+}
+
+.very-dark {
+  background-color: #0066cc !important;
+  color: white !important;
+  border-radius: 50% !important;
+}
+
+.disable {
+  color: #9e9e9e !important;
+  pointer-events: none !important;
+}
+
+.date-select {
+  background-color: #ADFF2F !important;
+  color: white !important;
+  border-radius: 50% !important;
+}
+
+/* 선택된 기간 중 시작 날짜 스타일 */
+.selected-start-red {
+  /*background: #246beb !important; /* 배경색을 진한 파란색으로 설정합니다. */ 
+  background: #C5524C !important; /* 배경색을 진한 파란색으로 설정합니다. */
+  color: white !important; /* 텍스트 색상을 흰색으로 설정합니다. */
+  border-radius: 50% 0% 0% 50% !important; /* 모서리를 둥글게 하여 원형으로 만듭니다. */
+}
+
+/* 선택된 기간 중 끝 날짜 스타일 */
+.selected-end-red {
+  /*background: #246beb !important; /* 배경색을 진한 파란색으로 설정합니다. */ 
+  background: #C5524C !important;
+  color: white !important; /* 텍스트 색상을 흰색으로 설정합니다. */
+  border-radius: 0% 50% 50% 0% !important; /* 모서리를 둥글게 하여 원형으로 만듭니다. */
+}
+
+/* 선택된 기간 중 나머지 날짜 스타일 */
+.selected-range-red {
+  /* background: #d3e1fb !important; /* 배경색을 연한 파란색으로 설정합니다. */
+  background: #f7827c !important;
+  color: black !important; /* 텍스트 색상을 검은으로 설정합니다. */
+}
+
+.selected-one-red {
+  background: #C5524C !important;
+  border-radius: 50% !important;
+}

@@ -1,0 +1,70 @@
+
+.place-list-box::-webkit-scrollbar {
+    width: 0.5rem;  
+}
+
+.place-list-box::-webkit-scrollbar-thumb {
+    background: #a8a8a8; 
+    border: 1px solid #a8a8a8; 
+    border-radius: 1rem 1rem 1rem 1rem;
+    cursor:pointer
+}
+
+
+
+.place-list-box{
+    border: 1px solid #717171;
+    max-height: 160px;
+    overflow-y: scroll;
+    border-radius: 0.3em;
+}
+
+
+ 
+.placeBox-fade-in-enter {
+    opacity: 0;
+}
+.placeBox-fade-in-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms;
+}
+.placeBox-fade-in-exit {
+    opacity: 1;
+}
+.placeBox-fade-in-exit-active {
+    opacity: 0;
+    transition: opacity 1000ms;
+}
+
+.selected-item-enter {
+    transform: translate(-5%, 5%);
+    opacity: 0;
+}
+.selected-item-enter-active {
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: 500ms;
+}
+.selected-item-exit {   
+    transform: translate(0, 0);
+    opacity: 1;
+}
+.selected-item-exit-active {
+    transform: translate(-5%, 5%);
+    opacity: 0;
+    transition: 500ms;
+}
+
+
+.checkbox-container{
+    display: flex;
+    justify-content: center;
+}
+.confirm-notification{
+    margin: 0.3em;
+    font-weight: 600;
+}
+.confirm-alert{
+    color: crimson;
+    text-align: center;
+}

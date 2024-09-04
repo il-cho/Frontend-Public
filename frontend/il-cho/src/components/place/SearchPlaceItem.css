@@ -1,0 +1,29 @@
+.place-box{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #949292;;
+    cursor: pointer;
+    margin: 10px 15px;
+}
+
+.place-box-place-name{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.place-box-place-address{
+    margin: 5px;
+    color: #949292;
+    font-weight: 300;
+}
+
+.place-box-right{
+    width: 70%;
+}
+.place-box-left{
+    margin-right: 0.8em;
+}
+.place-box-left:hover{
+    font-weight: bold;
+}

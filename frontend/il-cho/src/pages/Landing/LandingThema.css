@@ -1,0 +1,26 @@
+.landing-thema-title{
+  font-weight: bold;
+  margin: 0.5rem 0;  
+  font-size: 1.5rem;
+  color: #246beb;
+}
+
+.landing-thema-description{
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.landing-thema {
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-thema-img{
+  width: 100%;
+  margin: 0 auto;
+  height: 350px;
+}
+.landing-thema-img img{
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+}

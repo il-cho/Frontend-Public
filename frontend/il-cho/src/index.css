@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Pretendard";
+  src: url("/PretendardVariable.ttf"),
+    url("/PretendardVariable.woff2");
+}
+
+@font-face {
+  font-family: "SanTokki";
+  src: url("/HSSanTokki2.0\(2024\).ttf");
+}
+
+@font-face {
+  font-family: "DolDam";
+  src: url("/EF_jejudoldam\(TTF\).ttf");
+}
+
+#root {
+  max-width: 380px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 0 1.5rem;
+  height: 800px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 0.5em;
+  transition: box-shadow 0.5s;
+  overflow-y: scroll;
+  background-color: white;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+#root:hover {
+  box-shadow: 0 20px 33px rgba(0, 0, 0, 0.15), 0 15px 15px rgba(0, 0, 0, 0.30);
+}
+
+
+#root {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#root::-webkit-scrollbar {
+  display: none;
+}

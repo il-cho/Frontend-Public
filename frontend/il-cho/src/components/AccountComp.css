@@ -1,0 +1,102 @@
+.Account {
+  display: flex;
+  flex-direction: column;
+}
+
+.Account-item {
+  margin: 0.2em 0;
+  animation: fade-in 1s both;
+}
+
+.Account-inputbox {
+  position: relative;
+}
+
+.Account-won {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  color: #717171;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Bank-dropdown {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.Bank-icon-box {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #9c9c9c;
+  border-radius: 0.3em;
+  padding: 1em 0.5em;
+}
+
+.Bank-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  margin: 0.8em 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Bank-icon img {
+  width: 45px;
+  height: 45px;
+}
+
+.Bank-icon div {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.Bank-icon:hover {
+  transform: translate(-5%, 5%);
+}
+
+.Account-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@keyframes fade-in {
+  0% {
+    transform: translate(-5%, 5%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+.Bank-icon-animation-enter {
+  opacity: 0;
+}
+.Bank-icon-animation-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+.Bank-icon-animation-exit {
+  opacity: 1;
+}
+.Bank-icon-animation-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,70 @@
+.place-item{
+    margin-bottom: 0.5em;
+}
+.radio{
+    width: 0px;
+    height: 0px;
+}
+.map-buttons{
+    display: flex;
+    flex-direction: row;
+}
+.map-button{
+    width: 33.33%;
+    text-align: center;
+    padding: 0.3em 0.8em;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid #717171;
+    border-radius: 0.3em;
+    margin: 0em 0.3em;
+}
+.place-list-box::-webkit-scrollbar {
+    width: 0.5rem;  
+}
+
+.place-list-box::-webkit-scrollbar-thumb {
+    background: #a8a8a8; 
+    border: 1px solid #a8a8a8; 
+    border-radius: 1rem 1rem 1rem 1rem;
+    cursor:pointer
+}
+
+
+
+.place-list-box{
+    border: 1px solid #717171;
+    max-height: 160px;
+    overflow-y: scroll;
+    border-radius: 0.3em;
+}
+
+.radio-candidate:checked + .map-button-candidate{
+    background-color: #246beb;
+    color: white
+}
+
+.radio-start:checked + .map-button-start{
+    background-color: #46bd3e;
+    color: white
+}
+.radio-confirm:checked + .map-button-confirm{
+    background-color: #ee4f46;
+    color: white
+}
+
+ 
+.placeBox-fade-in-enter {
+    opacity: 0;
+}
+.placeBox-fade-in-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms;
+}
+.placeBox-fade-in-exit {
+    opacity: 1;
+}
+.placeBox-fade-in-exit-active {
+    opacity: 0;
+    transition: opacity 1000ms;
+}

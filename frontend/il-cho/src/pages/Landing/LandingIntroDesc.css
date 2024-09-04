@@ -1,0 +1,17 @@
+.landing-intro-desc-title{
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+.landing-intro-desc-question{
+  width: 80%;
+  margin: auto auto;
+}
+.landing-intro-desc-il{
+  color: #246beb;
+}
+.landing-intro-desc-content{
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+}

@@ -1,0 +1,32 @@
+.Input{
+    border: 1px solid #717171;
+    border-radius: 0.3em;
+    height: 48px;
+    width: 100%;
+    padding-left: 1em;
+  }
+  .Input::placeholder{
+    color: #d4d4d4;
+  }
+  .input-wrapper{
+   position: relative;
+  }
+
+.input-visible-fade-enter {
+    transform: translate(-5%, 5%);
+    opacity: 0;
+}
+.input-visible-fade-enter-active {
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: 500ms;
+}
+.input-visible-fade-exit {   
+    transform: translate(0, 0);
+    opacity: 1;
+}
+.input-visible-fade-exit-active {
+    transform: translate(-5%, 5%);
+    opacity: 0;
+    transition: 500ms;
+}

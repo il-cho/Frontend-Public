@@ -1,0 +1,67 @@
+.Header{
+    font-family: 'Pretendard';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0;
+}
+
+
+.Logo{
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.login{
+    border: 0;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.Menu{
+    border: 0;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.header-right{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.Logo-cho{
+    animation: change-color 2s both;
+}
+
+.profile {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+@keyframes bounce-icon{
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-50%);
+    }
+}
+
+@keyframes change-color {
+    0%{
+        color: black;
+    }
+    100%{
+        color: #246BEB;
+    }
+}

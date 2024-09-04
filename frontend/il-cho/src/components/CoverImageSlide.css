@@ -1,0 +1,54 @@
+.swiper {
+  width: 100%;
+  max-height: 300px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+  height: 200px;
+  cursor: grab;
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+  width: 330px;
+  height: 200px;
+  border-radius: 0.5em;
+  background-color: rgb(232, 226, 226);
+}
+
+.fileInput{
+  display: hidden;
+  width: 0;
+  height: 0;
+}
+
+.fileLabel{
+  background-color: rgb(232, 226, 226);
+  width: 330px;
+  height: 200px;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.swiper-button-prev, .swiper-button-next{
+  --swiper-navigation-size: 20px;
+  color: black;
+}
+.swiper-button-prev{
+  left: -40px;
+  transition: 0.5s;
+}
+.swiper-button-next{
+  right: -45px;
+  transition: 0.5s;
+}
+

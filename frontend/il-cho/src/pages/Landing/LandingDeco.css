@@ -1,0 +1,57 @@
+
+
+.landing-deco-title{
+  font-weight: bold;
+  margin: 0.5rem 0;  
+  font-size: 1.5rem;
+  color: #246beb;
+}
+
+.landing-deco-description{
+  font-size: 1.2rem;
+  color: gray;
+  padding-bottom: 0.5rem;
+}
+.landing-deco-sub-img{
+  width: 1.5rem;
+  margin: 0.2rem
+}
+.landing-deco-content-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+.landing-deco-main-img{
+  width: 100%;
+  position: relative;
+}
+
+.landing-deco-cover{
+  width: 100%;
+  border-radius: 1em;
+}
+
+.landing-deco-sticker{
+  position: absolute;
+  width:3rem; 
+}
+
+.landing-deco-sticker-1{
+  top: 10px;
+  left: 50px;
+}
+.landing-deco-sticker-2{
+  top:50%;
+  right: 30px;
+}
+
+.landing-deco-font{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  font-family: "SanTokki";
+}

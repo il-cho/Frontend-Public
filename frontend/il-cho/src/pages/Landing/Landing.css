@@ -1,0 +1,157 @@
+.landing {
+  font-family: 'Pretendard';
+  height: 6200px;
+}
+
+.landing-intro {
+  position: relative;
+  height: 700px;
+}
+.landing-intro-top{
+  background: linear-gradient(to right, #fafea4 0%, #fafea4 28%, #fafea4 28%, #8bc7fc 100%);
+  padding: 2em;
+}
+
+.landing-intro-title {
+  margin: 0.5em 0;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.landing-intro-button {
+  margin-top: 2em;
+  background-color: #4b3afe;
+  padding: 0.5em;
+  color: white;
+  font-size: 1.5em;
+  border-radius: 0.5em;
+  border: none;
+  transition: transform 0.5s;
+}
+
+.landing-intro-button:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+
+
+.thema-name {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.landing-intro-scroll{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 20px;
+  animation: bounce-up-down-fade 2s alternate infinite linear; 
+} 
+
+
+.landing-intro-title span {
+  display: inline-block;
+}
+
+.landing-title-1 {
+  color: #246beb;
+  animation: bounce-up-down 0.5s alternate 2 linear;
+}
+
+.landing-title-2 {
+  animation: bounce-up-down 0.5s 0.3s alternate 2 linear;
+}
+
+.landing-title-3 {
+  animation: bounce-up-down 0.5s 0.6s alternate 2 linear;
+}
+
+.landing-title-4 {
+  animation: bounce-up-down 0.5s 0.9s alternate 2 linear;
+}
+
+.landing-title-5 {
+  color: #246beb;
+  animation: bounce-up-down 0.5s 1.2s alternate 2 linear;
+}
+
+.landing-title-6 {
+  animation: bounce-up-down 0.5s 1.5s alternate 2 linear;
+}
+
+@keyframes bounce-up-down {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20%);
+  }
+}
+
+
+
+@keyframes bounce-up-down-fade {
+  0%{
+    transform: translate(-50%, -10px);
+  }  
+  100%{
+    transform: translate(-50%, 10px);
+  }
+}
+
+.landing-container{
+  margin: 3rem 0 10em 0;
+}
+
+
+.landing-intro-desc-content{
+  font-size: 1.3em;
+  margin: 1em 0;
+  text-align: center;
+}
+
+.landing-arrow-up{
+  background-color: rgb(220, 220, 220);
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 0.3rem;
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  z-index: 50;
+}
+
+
+@media(min-height: 800px){
+  .landing-intro-scroll{
+    top: 720px;
+  }
+  .landing-arrow-up{
+    top: 750px;
+  }
+}
+
+
+@media (min-width: 380px) {
+  .landing-arrow-up{
+    left: 50%;
+    transform: translateX(150px);
+  }
+}
