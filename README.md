@@ -47,29 +47,3 @@ main
         |---- chat
         |---- chatbot
 ```
-
-# Java Package Convention
-
-```text
-global
-|---- config
-|---- util
-|---- error
-		|---- exceptionhandler
-		|---- errorResponse.java
-		|---- errorCode.java
-
-domain
-|---- controller
-    |---- dto
-        |---- request
-        |---- response
-|---- service
-     |---- impl
-     |---- dto (Optional)
-        |---- input
-        |---- output
-|---- repository
-|---- enumeration
-|---- entity
-```
